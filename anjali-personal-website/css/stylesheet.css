@@ -1,3 +1,4 @@
+/*************************************TAG SELECTORS***************************************************/
 body{
   background-color: rosybrown;
 }
@@ -10,11 +11,34 @@ hr{
 
 }
 h1{
-  color: #3330E4
+  color: #3330E4; font-size : 80px;
 }
 h2{
-  color: #3330E4
+  color: red;
 }
 h3{
-  color: #3330E4
+  color: red;
+}
+img:hover{
+  background-color: gold;
+}
+/************************************CLASS SELECTOR******************************************************/
+.plant{
+  background-color: red;
+}
+
+.cooking{
+  background-color: blue;
+}
+.circular{
+  border-radius: 100%;
+}
+.anjali{
+  border-radius: 100%;
+}
+
+/**************************************ID SELECTOR******************************************************/
+
+#heading{
+  color: yellow;
 }
